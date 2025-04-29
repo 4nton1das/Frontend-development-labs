@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 60px 120px;
+}
+
+header {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000000;
+}
+
+.site-title {
+    display: inline-block;
+    margin: 0;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+    margin-right: 20px;
+}

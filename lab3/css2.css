@@ -1,0 +1,19 @@
+section {
+    width: 250px;
+    height: 250px;
+    border: 2px dotted green;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 10;
+}
+
+p {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    margin: 0;
+}
