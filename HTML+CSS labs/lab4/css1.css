@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #dbdbdb;
+    padding: 80px 240px;
+    box-sizing: border-box;
+}
+
+header, main, aside, footer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.main-aside-container {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+}
+
+header {
+    flex: 2;
+}
+
+footer {
+    flex: 1;
+}
+
+main {
+    flex: 2;
+    margin-right: 20px;
+}
+
+aside {
+    flex: 1;
+}
